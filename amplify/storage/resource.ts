@@ -1,7 +1,7 @@
 import { defineStorage } from '@aws-amplify/backend';
 
 export const storage = defineStorage({
-  name: 'sample-s3-browser',
+  name: 'nipon-s3-browser',
   access: (allow) => ({
     'public/*': [
       allow.guest.to(['read']),
